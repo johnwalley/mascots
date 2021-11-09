@@ -1,0 +1,2 @@
+# mascots
+Animated characters
