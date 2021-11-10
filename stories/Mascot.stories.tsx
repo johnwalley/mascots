@@ -35,40 +35,9 @@ const Template = (args) => {
       }}
     >
       <Mascot {...args} />
-      <progress
-        id="file"
-        max="100"
-        value="0"
-        style={{ width: "100%" }}
-        onClick={() => progress.current.restart()}
-      >
-        {" "}
-        70%{" "}
-      </progress>
     </div>
   );
 };
 
-export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
-  primary: true,
-  label: "Mascot",
-};
-
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: "Mascot",
-};
-
-export const Large = Template.bind({});
-Large.args = {
-  size: "large",
-  label: "Mascot",
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: "small",
-  label: "Mascot",
-};
+export const Neutral = Template.bind({});
+Neutral.args = {};
