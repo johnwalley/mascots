@@ -1,0 +1,12 @@
+.root {
+  position: relative;
+}
+
+.root .legs {
+  position: absolute;
+  top: 0;
+}
+
+.root .mouth {
+  transform-origin: 55px 74px;
+}
