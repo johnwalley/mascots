@@ -1,2 +1,2 @@
 # mascots
-Animated characters
+Interactive ghosts of centralised liquidity
